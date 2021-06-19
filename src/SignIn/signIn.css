@@ -1,0 +1,78 @@
+.SignIn_Page {
+    display: flex;
+}
+.left-side, .right-side {
+    height: 100vh;
+    width: 1050px;
+}
+.left-side {
+    float: left;
+    background-color: blueviolet;
+}
+.content-left {
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 300px;
+    color: white;
+}
+.right-side {
+    float: right;
+    background-color:whitesmoke
+}
+.content-right {
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 154px;
+    padding-left: 50px;
+    color: blueviolet;
+}
+#H3 {
+    padding-bottom: 60px;
+    padding-left: 180px;
+    font-size: 40px;
+}
+#emailLable {
+    padding-right: 65px;
+    font-size: 20px;
+}
+#emailInput, #passwordInput  {
+    width: 330px;
+    font-size: 15px;
+    color: blueviolet;
+}
+#emailInput:focus, #passwordInput:focus  {
+    border-color: blueviolet;
+}
+.passwordDiv {
+    padding-top: 40px;
+}
+#passwordLable  {
+    padding-right: 30px;
+    font-size: 20px;
+}
+.submitForm {
+    padding-top: 50px;
+    padding-left: 210px;
+}
+#submitForm {
+    color: whitesmoke;
+    background-color: blueviolet;
+    width: 150px;
+}
+#submitForm:focus {
+    background-color: whitesmoke;
+    color: blueviolet;
+}
+.newUser {
+    margin-top: 20px;
+    padding-left: 215px;
+}
+#newUser {
+    color: blueviolet;
+}
+#newUser:focus {
+    color: black;
+}
