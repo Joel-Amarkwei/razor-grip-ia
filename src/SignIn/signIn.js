@@ -1,3 +1,4 @@
+///     This is SignIn Components
 import React, { useEffect } from 'react';
 import './signIn.css';
 import { Input, Button } from 'semantic-ui-react';
@@ -21,19 +22,18 @@ const SignIn = () => {
                     <form>
                         <div>
                             <label id = "emailLable">Email</label>
-                            <Input type = "text" placeholder = "Email" id = "emailInput"/>
+                            <Input type = "text" placeholder = "email!" id = "emailInput"/>
                         </div>
                         <div className = "passwordDiv">
                             <label id = "passwordLable"> Password</label>
-                            <Input type = "password" placeholder = "Password" id = "passwordInput"/>
+                            <Input type = "password" placeholder = "password!" id = "passwordInput"/>
                         </div>
                         <div className = "submitForm">
                             <Button type = "submit" id = "submitForm"> Login </Button>
                         </div>
                         <div className = "newUser">
-                            <a href = "/register" id = "newUser">Sign Up A New Use </a>
+                            <a href = "/register" id = "newUser">Sign Up A New User ?</a>
                         </div>
-                        
                     </form>
                 </div>
             </div>
