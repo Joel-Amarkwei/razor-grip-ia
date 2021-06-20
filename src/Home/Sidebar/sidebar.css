@@ -1,0 +1,41 @@
+.sidebar-Pane {
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 100vh;
+    background-color: #b8b8b8;
+}
+.sidebar-content {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#l1{
+    font-size: 30px;
+    color: blueviolet;
+    padding-left: 55px;
+}
+#h5 {
+    color: blueviolet;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.h5{
+    padding-left: 10px;
+}
+h5 {
+    color: blueviolet;
+}
+.logoutDiv {
+    padding-top: 190px;
+    padding-left: 50px;
+}
+#signOut {
+    width: 180px;
+    color: whitesmoke;
+    background-color: blueviolet;
+}
+#signOut:focus{
+    background-color: whitesmoke;
+    color: blueviolet;
+}
