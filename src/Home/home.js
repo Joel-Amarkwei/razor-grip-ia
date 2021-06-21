@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './home.css'
 import Sidebar from './Sidebar/sidebar';
+import { Input } from 'semantic-ui-react';
 
 const Home = () => {
 
@@ -10,6 +11,11 @@ const Home = () => {
     return (
         <>
             <Sidebar/>
+            <div className = "insideThings">
+                <div>
+                    <Input />
+                </div>
+            </div>
             
         </>
         

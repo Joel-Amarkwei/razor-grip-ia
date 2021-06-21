@@ -1,19 +1,19 @@
 .sidebar-Pane {
     display: flex;
     float: left;
-    width: 400px;
+    width: 300px;
     height: 100vh;
     background-color: #b8b8b8;
 }
 .sidebar-content {
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 #l1{
     font-size: 30px;
     color: blueviolet;
-    padding-left: 55px;
+    padding-left: 50px;
 }
 #h5 {
     color: blueviolet;
@@ -28,7 +28,7 @@ h5 {
 }
 .logoutDiv {
     padding-top: 190px;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 #signOut {
     width: 180px;
@@ -38,4 +38,8 @@ h5 {
 #signOut:focus{
     background-color: whitesmoke;
     color: blueviolet;
+}
+#menuBar {
+    width: 260px;
+
 }
