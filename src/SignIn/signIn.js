@@ -18,7 +18,7 @@ const SignIn = () => {
             </div>
             <div className = "right-side">
                 <div className = "content-right">
-                    <h3 id = "H3"> Vegan Chat</h3>
+                    <h3 id = "H3"> Vegan Chat Inc </h3>
                     <form>
                         <div>
                             <label id = "emailLable">Email</label>
